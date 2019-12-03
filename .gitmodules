@@ -1,0 +1,3 @@
+[submodule "ffi/lwip"]
+	path = ffi/lwip
+	url = git@github.com:gdetal/lwip.git
