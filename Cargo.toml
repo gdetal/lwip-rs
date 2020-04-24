@@ -11,7 +11,7 @@ bytes      = "0.5"
 futures = "0.3.1"
 tokio = { version = "0.2", features = [ "full" ] }
 parking_lot = { version = "0.10", features = [ "deadlock_detection" ] }
-transfer-async = { path = "../transfer-async" }
+transfer-async = { git = "https://github.com/gdetal/transfer-async-rs" }
 pin-project-lite = "0.1.4"
 ipnetwork = "0.16.0"
 
@@ -23,7 +23,7 @@ bindgen = "0.52.0"
 tun = { git = "https://github.com/gdetal/rust-tun", features = [ "async" ] }
 tokio-util = { version = "0.2", features = [ "codec" ] }
 tokio-test = "0.2"
-packet     = { path = "../rust-packet" }
+packet     = { git = "https://github.com/gdetal/rust-packet" }
 rusty-fork = "0.2"
 criterion = "0.3"
 
